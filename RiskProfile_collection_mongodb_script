@@ -1,0 +1,1 @@
+db.createCollection("risk_profiles")

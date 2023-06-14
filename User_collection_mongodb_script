@@ -1,0 +1,12 @@
+use p2p_lending
+
+db.createCollection("users")
+db.users.insertMany([
+  {
+    "user_id": 1,
+    "username": "john",
+    "password": "password123",
+    "email": "john@example.com",
+    "balance": 5000
+  }
+])
